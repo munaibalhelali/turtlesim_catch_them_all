@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <node name="turtlesim_main_node" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+    <node name="turtle_controller" pkg="turtlesim_catch_them_all" type="turtle_controller.py" output="screen"/>
+    <node name="turtle_spawner" pkg="turtlesim_catch_them_all" type="turtle_spawner.py" output="screen"/>
+    
+
+</launch>
